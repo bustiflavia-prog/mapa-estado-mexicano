@@ -1,35 +1,25 @@
-MAPA DEL ESTADO MEXICANO · MVP 0.3
-Corte de verificación: 25 de septiembre de 2026
+MAPA DEL ESTADO MEXICANO · MVP 0.4
+Corte de verificación: 28 de septiembre de 2026
 
-CONTENIDO WEB
+CONTENIDO
 - index.html: aplicación interactiva autónoma.
-- datos_base.csv: base estructural abierta.
-- base_maestra.xlsx: libro de trabajo con unidades, fuentes, cobertura, resumen e histórico_schema.
-- fuentes.csv: catálogo de fuentes oficiales.
-- cobertura_dependencias.csv: estado de avance de las 22 dependencias del artículo 26 de la LOAPF.
-- .nojekyll: publicación directa en GitHub Pages.
+- datos_base_0_4.csv: base estructural.
+- base_maestra_0_4.xlsx: libro de trabajo.
+- fuentes_0_4.csv: catálogo de fuentes oficiales.
+- cobertura_dependencias_0_4.csv: avance de las 22 dependencias del artículo 26 de la LOAPF.
 
-CAMBIOS DE DISEÑO · v0.3
-1. Las 32 entidades federativas dejan de dibujarse como 32 etiquetas dentro de una cuña estrecha del panorama radial.
-2. El panorama muestra un único nodo agregado territorial.
-3. Se añade la vista específica “Entidades federativas”, con buscador y 32 tarjetas seleccionables.
-4. En jerarquías muy densas, sólo se rotulan por defecto los niveles inmediatos; los nodos profundos conservan título emergente y ficha lateral.
-5. Se mantiene la distinción entre panorama, exploración APF y cobertura.
+AVANCE v0.4
+- 475 registros estructurales.
+- 16 de 22 dependencias con algún nivel de desagregación.
+- Se incorporan/amplían: SRE, SSPC, Bienestar, Economía, Agricultura y SECIHTI.
+- Continúa la vista territorial separada de las 32 entidades federativas para evitar superposición en la rueda.
+- La estructura de Economía se considera avanzada pero aún no exhaustivamente conciliada entre el MOG 2022, adscripción 2024 y reforma de 2025.
+- Agricultura se carga parcialmente con el Reglamento Interior publicado el 31/12/2025.
+- SSPC se carga hasta subsecretarías, unidades y OAD; falta conciliar direcciones generales y su adscripción.
 
-AMPLIACIÓN DE DATOS · v0.3
-La base pasa de 135 a 286 registros.
-Se amplía la estructura de:
-- Secretaría de Gobernación.
-- Secretaría de Hacienda y Crédito Público.
-- Secretaría de Medio Ambiente y Recursos Naturales.
-- Secretaría de Infraestructura, Comunicaciones y Transportes.
-- Secretaría Anticorrupción y Buen Gobierno.
-- Secretaría de Educación Pública.
-
-También se reservan los campos:
-fecha_inicio, fecha_fin, tipo_cambio e id_predecesora,
-para la futura dimensión histórica.
+PRÓXIMA FASE
+v0.5: cerrar el nivel básico de las seis dependencias que aún permanecen sólo en raíz:
+Defensa, Marina, Trabajo y Previsión Social, SEDATU, Cultura y Turismo.
 
 CRITERIO
-La cobertura es incremental. Una unidad ausente significa “aún no cargada” y no debe interpretarse automáticamente como inexistente.
-Las relaciones cargadas se sustentan en fuentes oficiales; cuando una relación se reconstruye de una disposición indirecta (por ejemplo, régimen de suplencias), se explicita en las notas metodológicas.
+Sólo se publican registros vinculados a fuentes oficiales. La ausencia de una unidad no equivale a inexistencia.
