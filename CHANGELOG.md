@@ -1,13 +1,7 @@
-# Changelog
+# Historial de versiones
 
-## 0.3 — 2026-09-25
-- Rediseño del bloque territorial: 32 entidades federativas en vista independiente.
-- Etiquetado progresivo en jerarquías densas.
-- Base ampliada a 286 registros.
-- Incorporación estructural de SEGOB, SHCP, SEMARNAT, SICT, SABG y SEP.
-- Campos reservados para vigencia histórica.
-
-## 0.2 — 2026-09-25
-- 135 registros.
-- Pilotos: Mujeres, Energía, Salud y ATDT.
-- Primera publicación en GitHub Pages.
+- **v0.2** — 135 registros. Primer panorama navegable.
+- **v0.3** — 286 registros. Rediseño territorial y ampliación federal.
+- **v0.4** — 475 registros. 16 dependencias federales con desagregación.
+- **v1.0 RC** — 844 registros. 22/22 dependencias y sector paraestatal 2026.
+- **v1.1** — Capa de publicación: búsqueda avanzada, comparación, relaciones, indicadores, fuentes, histórico, glosario, modo docente, permalinks, citas, descargas y reporte de correcciones.
