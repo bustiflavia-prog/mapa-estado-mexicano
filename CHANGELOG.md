@@ -1,9 +1,9 @@
 # Historial de versiones
 
-- **v0.2** — 135 registros. Primer panorama navegable.
-- **v0.3** — 286 registros. Rediseño territorial y ampliación federal.
-- **v0.4** — 475 registros. 16 dependencias federales con desagregación.
-- **v1.0 RC** — 844 registros. 22/22 dependencias y sector paraestatal 2026.
-- **v1.1** — Capa de publicación con búsqueda, comparación, sectores, relaciones, indicadores, fuentes, histórico, glosario y herramientas de cita/descarga.
-- **v1.1.1** — Corrección metodológica de calidad, 25 titulares superiores verificados, comparador estructural ampliado y catálogo relacional explícito.
-- **v1.1.2** — Corrección funcional de búsqueda, comparación, fuentes, relaciones, histórico, glosario y herramientas de ficha. El buscador distingue unidades homónimas por su institución superior. Sin cambios en los datos de la v1.1.1.
+- **v0.2:** 135 registros; primer panorama navegable.
+- **v0.3:** 286 registros; rediseño territorial.
+- **v0.4:** 475 registros; ampliación federal.
+- **v1.0 RC:** 844 registros; 22 dependencias y sector paraestatal.
+- **v1.1:** búsqueda, comparación y módulos de consulta.
+- **v1.1.1:** corrección de calidad documental y 25 titulares superiores.
+- **v1.1.3:** corrección funcional de búsqueda, filtros, comparación, relaciones, fuentes, glosario y herramientas de ficha. Datos sin cambios.
