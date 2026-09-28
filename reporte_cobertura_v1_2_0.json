@@ -1,0 +1,25 @@
+{
+  "version": "1.2.0",
+  "total": 1598,
+  "added": 754,
+  "relations": 1770,
+  "sources": 78,
+  "secretariats": {
+    "sec-8": "62",
+    "sec-10": "35",
+    "sec-11": "57",
+    "sec-12": "75",
+    "sec-13": "49",
+    "sec-15": "47",
+    "sec-17": "29",
+    "sec-19": "23"
+  },
+  "paraestatals": {
+    "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado": "14",
+    "Instituto Mexicano del Seguro Social": "17",
+    "Comisión Federal de Electricidad": "68",
+    "Petróleos Mexicanos": "328",
+    "Servicios de Salud del Instituto Mexicano del Seguro Social para el Bienestar (IMSS-BIENESTAR)": "52"
+  },
+  "para_active_desegregated": 6
+}
