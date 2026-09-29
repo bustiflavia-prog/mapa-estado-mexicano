@@ -1,10 +1,10 @@
 // Identificadores públicos para activar visitas y comentarios. No añadas contraseñas ni tokens.
 window.MAPA_PUBLICACION = {
-  goatcounterEndpoint: "", // Ejemplo: "https://tunombre.goatcounter.com/count"
+  goatcounterEndpoint: "https://bustiflavia.goatcounter.com/count", // Contador de visitas del sitio público
   giscus: {
     repo: "bustiflavia-prog/mapa-estado-mexicano",
-    repoId: "", // ID que muestra https://giscus.app/es al introducir el repositorio
+    repoId: "R_kgDOUrzpkg", // Identificador público del repositorio
     category: "General", // Nombre exacto de la categoría elegida en GitHub Discussions
-    categoryId: "" // ID que muestra giscus.app para esa categoría
+    categoryId: "DIC_kwDOUrzpks4DGnXV" // Identificador público de la categoría General
   }
 };

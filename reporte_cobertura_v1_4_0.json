@@ -1,0 +1,60 @@
+{
+  "version": "1.4.0",
+  "fecha_corte": "2026-09-29",
+  "total": 5315,
+  "added": 3717,
+  "relations": 6418,
+  "sources": 133,
+  "para_active": 181,
+  "para_active_desegregated": 40,
+  "para_only_governance": 14,
+  "para_still_root_only": 141,
+  "courts_directory_records": 930,
+  "circuits": 32,
+  "coverage_status": "Parcial en las cinco etapas. No es un inventario federal exhaustivo ni certificación de vigencia de cada unidad.",
+  "blocks": {
+    "Poder Ejecutivo": 2667,
+    "Poder Legislativo": 440,
+    "Poder Judicial": 1065,
+    "Autonomía constitucional": 1073,
+    "Entidades federativas": 33,
+    "Regímenes especiales federales": 37
+  },
+  "stages": [
+    {
+      "etapa": 1,
+      "nombre": "Ejecutivo federal central",
+      "estado": "Parcial",
+      "registros": 1108,
+      "instituciones_con_ficha": 24
+    },
+    {
+      "etapa": 2,
+      "nombre": "Paraestatales y empresas públicas federales",
+      "estado": "Parcial",
+      "registros": 1559,
+      "instituciones_con_ficha": 181
+    },
+    {
+      "etapa": 3,
+      "nombre": "Poder Legislativo federal",
+      "estado": "Parcial",
+      "registros": 440,
+      "instituciones_con_ficha": 3
+    },
+    {
+      "etapa": 4,
+      "nombre": "Poder Judicial federal",
+      "estado": "Parcial",
+      "registros": 1065,
+      "instituciones_con_ficha": 11
+    },
+    {
+      "etapa": 5,
+      "nombre": "Autónomos y regímenes especiales federales",
+      "estado": "Parcial",
+      "registros": 1110,
+      "instituciones_con_ficha": 10
+    }
+  ]
+}
