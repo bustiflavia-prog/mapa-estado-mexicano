@@ -1,5 +1,11 @@
 # Cambios
 
+## v1.3.0 · 2026-09-28
+
+- Se incorpora la pestaña Aportes con integración preparada para comentarios públicos mediante GitHub Discussions y giscus.
+- Se prepara la medición de visitas con GoatCounter; requiere configurar la dirección del contador.
+- Los identificadores públicos se separan en `config_publicacion.js`. Base institucional, CSV y Excel permanecen en v1.2.0.
+
 ## v1.2.0 · 2026-09-28
 
 - 754 unidades nuevas: 263 en ocho secretarías y 491 en seis paraestatales.
