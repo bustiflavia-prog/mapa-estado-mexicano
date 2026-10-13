@@ -1,20 +1,8 @@
-# Cambios
+# Historial de versiones
 
-## v1.3.0 · 2026-09-28
-
-- Se incorpora la pestaña Aportes con integración preparada para comentarios públicos mediante GitHub Discussions y giscus.
-- Se prepara la medición de visitas con GoatCounter; requiere configurar la dirección del contador.
-- Los identificadores públicos se separan en `config_publicacion.js`. Base institucional, CSV y Excel permanecen en v1.2.0.
-
-## v1.2.0 · 2026-09-28
-
-- 754 unidades nuevas: 263 en ocho secretarías y 491 en seis paraestatales.
-- Actualización de la adscripción y jerarquía en Salud, Educación, Turismo, SENER y SICT. Ampliación de Agricultura, SABG y SEDATU hasta direcciones generales y coordinaciones documentadas.
-- Desagregación de Pemex, CFE, IMSS-BIENESTAR, IMSS, ISSSTE y ATTRAPI con fuentes oficiales por unidad.
-- ARTF histórica y relación documentada de sucesión hacia ATTRAPI.
-- Comparador y fichas indican que la ausencia de descendientes en otras paraestatales es falta de desglose cargado.
-- CSV de cobertura paraestatal y libro Excel sincronizados con el sitio.
-
-## v1.1.3
-
-- Corrección funcional de búsqueda, filtros, comparación y relaciones.
+- **v0.2** — 135 registros. Primer panorama navegable.
+- **v0.3** — 286 registros. Rediseño territorial y ampliación federal.
+- **v0.4** — 475 registros. 16 dependencias federales con desagregación.
+- **v1.0 RC** — 844 registros. 22/22 dependencias y sector paraestatal 2026.
+- **v1.1** — Capa de publicación: búsqueda, comparación, sectores, relaciones, indicadores, fuentes, histórico, glosario y herramientas de cita/descarga.
+- **v1.2 dinámica** — Giro, zoom, paneo y niveles radiales; etiquetas progresivas; calidad de dato corregida para entidades y paraestatales; 34 titularidades superiores verificadas; funciones resumidas de las 22 dependencias; 1,015 relaciones explícitas; comparación institucional enriquecida y base con indicadores estructurales derivados.

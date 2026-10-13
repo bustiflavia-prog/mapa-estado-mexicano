@@ -1,0 +1,23 @@
+﻿id,dependencia,estado_cobertura,hijos_directos,descendientes_cargados,ultima_verificacion
+sec-0,Secretaría de Gobernación,Estructura básica + OAD,7,29,2026-09-25
+sec-1,Secretaría de Relaciones Exteriores,Estructura básica + adscripción,14,44,2026-09-28
+sec-2,Secretaría de la Defensa Nacional,Estructura avanzada · MOG 2026 hasta Dirección General,8,51,2026-09-28
+sec-3,Secretaría de Marina,Estructura básica-ampliada · RI 2025,9,26,2026-09-28
+sec-4,Secretaría de Seguridad y Protección Ciudadana,Nivel superior + OAD,22,22,2026-09-28
+sec-5,Secretaría de Hacienda y Crédito Público,Estructura superior avanzada,8,41,2026-09-25
+sec-6,Secretaría de Bienestar,Estructura básica completa,12,32,2026-09-28
+sec-7,Secretaría de Medio Ambiente y Recursos Naturales,Estructura básica + OAD,15,35,2026-09-25
+sec-8,Secretaría de Energía,Parcial avanzada,4,18,2026-09-25
+sec-9,Secretaría de Economía,Estructura avanzada conciliada parcialmente,10,54,2026-09-28
+sec-10,Secretaría de Agricultura y Desarrollo Rural,Estructura parcial actualizada,2,17,2026-09-28
+sec-11,"Secretaría de Infraestructura, Comunicaciones y Transportes",Estructura superior parcial,9,21,2026-09-25
+sec-12,Secretaría Anticorrupción y Buen Gobierno,Estructura básica + OAD,8,17,2026-09-25
+sec-13,Secretaría de Educación Pública,Nivel superior,7,7,2026-09-25
+sec-14,"Secretaría de Ciencia, Humanidades, Tecnología e Innovación",Estructura básica completa,6,20,2026-09-28
+sec-15,Secretaría de Salud,Nivel superior,8,8,2026-09-25
+sec-16,Secretaría del Trabajo y Previsión Social,Estructura básica completa · MOG 2023,11,22,2026-09-28
+sec-17,"Secretaría de Desarrollo Agrario, Territorial y Urbano",Estructura parcial-avanzada · RI 2025 + RAN,7,14,2026-09-28
+sec-18,Secretaría de Cultura,Estructura básica-ampliada · RI 2025,8,20,2026-09-28
+sec-19,Secretaría de Turismo,Sector central 2026 por unidad responsable,3,12,2026-09-28
+sec-20,Secretaría de las Mujeres,Básica completa,7,15,2026-09-25
+sec-21,Agencia de Transformación Digital y Telecomunicaciones,Base + actualización,6,18,2026-09-25
