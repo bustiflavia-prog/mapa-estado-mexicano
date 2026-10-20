@@ -1,0 +1,18 @@
+{
+  "registros": 844,
+  "titulares_superiores": 25,
+  "relaciones": 1015,
+  "eventos": 1669,
+  "fuentes": 34,
+  "paraestatales_activas": 181,
+  "entidades_federativas": 33,
+  "dependencias_desagregadas": 22,
+  "calidad": {
+    "amplia": 544,
+    "parcial": 51,
+    "territorial": 33,
+    "agregado": 22,
+    "historico": 13,
+    "entidad": 181
+  }
+}

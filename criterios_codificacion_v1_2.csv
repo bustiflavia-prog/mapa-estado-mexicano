@@ -1,0 +1,22 @@
+﻿campo,definicion,valores_permitidos,regla_codificacion,ejemplo
+id,Identificador estable del registro,Texto único,No reutilizar IDs para instituciones distintas. Mantener el ID ante cambios menores de etiqueta; usar predecesora/sucesora para cambios institucionales sustantivos.,sec-9
+nombre,Denominación oficial,Texto,Usar la denominación que aparece en la fuente oficial seleccionada.,Secretaría de Economía
+nombre_corto,Etiqueta de navegación,Texto,Abreviar sólo para visualización; no reemplaza el nombre oficial.,Economía
+bloque,Bloque del Estado,Catálogo controlado,Poder Ejecutivo; Poder Legislativo; Poder Judicial; Autonomía constitucional; Entidades federativas.,Poder Ejecutivo
+tipo,Tipo institucional u organizativo,Texto controlado/abierto,Conservar la figura explícita en la fuente; no transformar automáticamente categorías jurídicas.,Órgano administrativo desconcentrado
+id_padre,Superior jerárquico,ID existente,Usar sólo cuando la dependencia jerárquica/organizativa esté documentada.,sec-9
+sector_coordinador,Coordinación sectorial,Nombre oficial de dependencia o No sectorizada,Aplicable principalmente al sector paraestatal; no equivale a subordinación jerárquica.,Secretaría de Economía
+fundamento,Base normativa de la relación/estructura,Texto,"Citar artículo, manual, acuerdo o instrumento cuando esté identificado.","Reglamento Interior, art. 3"
+fuente_codigo,Clave de fuente,Código único,Vincula el registro con el catálogo de fuentes.,RI_SEMARNAT_2025
+fuente_url,URL oficial,URL,"Preferir DOF, Cámara de Diputados o sitio institucional oficial.",https://...
+fecha_publicacion_fuente,Fecha de publicación de la fuente,AAAA-MM-DD,No confundir con entrada en vigor ni con fecha de verificación.,2025-03-14
+fecha_entrada_vigor,Fecha en que el cambio entra en vigor,AAAA-MM-DD o vacío,Completar sólo cuando la norma/transitorio lo establezca expresamente. No inferir.,2025-03-15
+fecha_consulta_verificacion,Fecha de revisión del registro,AAAA-MM-DD,Indica cuándo fue revisado por el proyecto.,2026-10-20
+fecha_inicio,Inicio de vigencia institucional,AAAA-MM-DD o vacío,Completar sólo con evidencia explícita.,
+fecha_fin,Fin de vigencia institucional,AAAA-MM-DD o vacío,No completar por inferencia.,
+tipo_cambio,Evento institucional,Catálogo controlado,creación; supresión; cambio_nombre; cambio_adscripción; fusión; escisión; transformación; otro.,cambio_adscripción
+id_predecesora,Predecesora documentada,ID existente o vacío,No asociar por similitud nominal; exige evidencia de sucesión.,
+titular,Persona titular,Nombre completo,Registrar sólo con fuente oficial y fecha de verificación.,Marcelo Ebrard Casaubon
+titular_cargo,Denominación del cargo,Texto,Conservar el cargo según la fuente oficial.,Secretario de Economía
+calidad_codigo,Calidad documental de esta base,Catálogo derivado,amplia; parcial; agregado; territorial; entidad; historico; revision. No mide desempeño institucional.,parcial
+situacion_juridica,Situación reportada,Texto,"Distinguir vigente, transición, desincorporación y otras situaciones explícitas.",Vigente

@@ -1,0 +1,167 @@
+{
+  "version": "1.2",
+  "actualizacion": "2026-10-20",
+  "corte_estructural": "2026-09-28",
+  "unidad_observacion": "Unidad, órgano o institución explícitamente identificable en una fuente oficial.",
+  "reglas_temporales": {
+    "fecha_publicacion_fuente": "Fecha del documento oficial.",
+    "fecha_entrada_vigor": "Fecha en que el cambio produce efectos, sólo si está documentada.",
+    "fecha_consulta_verificacion": "Fecha en que el proyecto revisó el registro."
+  },
+  "archivos": {
+    "datos_base_v1_2.csv": "Registros institucionales.",
+    "relaciones_institucionales_v1_2.csv": "Aristas de jerarquía, sectorización y sucesión.",
+    "eventos_institucionales_v1_2.csv": "Eventos temporales separados por tipo de fecha.",
+    "criterios_codificacion_v1_2.csv": "Diccionario y reglas de codificación.",
+    "titulares_superiores_v1_2.csv": "Titulares superiores con fuente y fecha de verificación."
+  },
+  "campos": [
+    {
+      "campo": "id",
+      "definicion": "Identificador estable del registro",
+      "valores_permitidos": "Texto único",
+      "regla_codificacion": "No reutilizar IDs para instituciones distintas. Mantener el ID ante cambios menores de etiqueta; usar predecesora/sucesora para cambios institucionales sustantivos.",
+      "ejemplo": "sec-9"
+    },
+    {
+      "campo": "nombre",
+      "definicion": "Denominación oficial",
+      "valores_permitidos": "Texto",
+      "regla_codificacion": "Usar la denominación que aparece en la fuente oficial seleccionada.",
+      "ejemplo": "Secretaría de Economía"
+    },
+    {
+      "campo": "nombre_corto",
+      "definicion": "Etiqueta de navegación",
+      "valores_permitidos": "Texto",
+      "regla_codificacion": "Abreviar sólo para visualización; no reemplaza el nombre oficial.",
+      "ejemplo": "Economía"
+    },
+    {
+      "campo": "bloque",
+      "definicion": "Bloque del Estado",
+      "valores_permitidos": "Catálogo controlado",
+      "regla_codificacion": "Poder Ejecutivo; Poder Legislativo; Poder Judicial; Autonomía constitucional; Entidades federativas.",
+      "ejemplo": "Poder Ejecutivo"
+    },
+    {
+      "campo": "tipo",
+      "definicion": "Tipo institucional u organizativo",
+      "valores_permitidos": "Texto controlado/abierto",
+      "regla_codificacion": "Conservar la figura explícita en la fuente; no transformar automáticamente categorías jurídicas.",
+      "ejemplo": "Órgano administrativo desconcentrado"
+    },
+    {
+      "campo": "id_padre",
+      "definicion": "Superior jerárquico",
+      "valores_permitidos": "ID existente",
+      "regla_codificacion": "Usar sólo cuando la dependencia jerárquica/organizativa esté documentada.",
+      "ejemplo": "sec-9"
+    },
+    {
+      "campo": "sector_coordinador",
+      "definicion": "Coordinación sectorial",
+      "valores_permitidos": "Nombre oficial de dependencia o No sectorizada",
+      "regla_codificacion": "Aplicable principalmente al sector paraestatal; no equivale a subordinación jerárquica.",
+      "ejemplo": "Secretaría de Economía"
+    },
+    {
+      "campo": "fundamento",
+      "definicion": "Base normativa de la relación/estructura",
+      "valores_permitidos": "Texto",
+      "regla_codificacion": "Citar artículo, manual, acuerdo o instrumento cuando esté identificado.",
+      "ejemplo": "Reglamento Interior, art. 3"
+    },
+    {
+      "campo": "fuente_codigo",
+      "definicion": "Clave de fuente",
+      "valores_permitidos": "Código único",
+      "regla_codificacion": "Vincula el registro con el catálogo de fuentes.",
+      "ejemplo": "RI_SEMARNAT_2025"
+    },
+    {
+      "campo": "fuente_url",
+      "definicion": "URL oficial",
+      "valores_permitidos": "URL",
+      "regla_codificacion": "Preferir DOF, Cámara de Diputados o sitio institucional oficial.",
+      "ejemplo": "https://..."
+    },
+    {
+      "campo": "fecha_publicacion_fuente",
+      "definicion": "Fecha de publicación de la fuente",
+      "valores_permitidos": "AAAA-MM-DD",
+      "regla_codificacion": "No confundir con entrada en vigor ni con fecha de verificación.",
+      "ejemplo": "2025-03-14"
+    },
+    {
+      "campo": "fecha_entrada_vigor",
+      "definicion": "Fecha en que el cambio entra en vigor",
+      "valores_permitidos": "AAAA-MM-DD o vacío",
+      "regla_codificacion": "Completar sólo cuando la norma/transitorio lo establezca expresamente. No inferir.",
+      "ejemplo": "2025-03-15"
+    },
+    {
+      "campo": "fecha_consulta_verificacion",
+      "definicion": "Fecha de revisión del registro",
+      "valores_permitidos": "AAAA-MM-DD",
+      "regla_codificacion": "Indica cuándo fue revisado por el proyecto.",
+      "ejemplo": "2026-10-20"
+    },
+    {
+      "campo": "fecha_inicio",
+      "definicion": "Inicio de vigencia institucional",
+      "valores_permitidos": "AAAA-MM-DD o vacío",
+      "regla_codificacion": "Completar sólo con evidencia explícita.",
+      "ejemplo": ""
+    },
+    {
+      "campo": "fecha_fin",
+      "definicion": "Fin de vigencia institucional",
+      "valores_permitidos": "AAAA-MM-DD o vacío",
+      "regla_codificacion": "No completar por inferencia.",
+      "ejemplo": ""
+    },
+    {
+      "campo": "tipo_cambio",
+      "definicion": "Evento institucional",
+      "valores_permitidos": "Catálogo controlado",
+      "regla_codificacion": "creación; supresión; cambio_nombre; cambio_adscripción; fusión; escisión; transformación; otro.",
+      "ejemplo": "cambio_adscripción"
+    },
+    {
+      "campo": "id_predecesora",
+      "definicion": "Predecesora documentada",
+      "valores_permitidos": "ID existente o vacío",
+      "regla_codificacion": "No asociar por similitud nominal; exige evidencia de sucesión.",
+      "ejemplo": ""
+    },
+    {
+      "campo": "titular",
+      "definicion": "Persona titular",
+      "valores_permitidos": "Nombre completo",
+      "regla_codificacion": "Registrar sólo con fuente oficial y fecha de verificación.",
+      "ejemplo": "Marcelo Ebrard Casaubon"
+    },
+    {
+      "campo": "titular_cargo",
+      "definicion": "Denominación del cargo",
+      "valores_permitidos": "Texto",
+      "regla_codificacion": "Conservar el cargo según la fuente oficial.",
+      "ejemplo": "Secretario de Economía"
+    },
+    {
+      "campo": "calidad_codigo",
+      "definicion": "Calidad documental de esta base",
+      "valores_permitidos": "Catálogo derivado",
+      "regla_codificacion": "amplia; parcial; agregado; territorial; entidad; historico; revision. No mide desempeño institucional.",
+      "ejemplo": "parcial"
+    },
+    {
+      "campo": "situacion_juridica",
+      "definicion": "Situación reportada",
+      "valores_permitidos": "Texto",
+      "regla_codificacion": "Distinguir vigente, transición, desincorporación y otras situaciones explícitas.",
+      "ejemplo": "Vigente"
+    }
+  ]
+}

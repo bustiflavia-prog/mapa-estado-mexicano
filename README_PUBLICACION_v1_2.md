@@ -1,33 +1,18 @@
-# Mapa del Estado mexicano · v1.2 dinámica
+# Mapa del Estado mexicano · v1.2 interactiva
 
-Corte de verificación de titulares superiores: 2026-10-13.
+Actualización de la interfaz y titulares: 20/10/2026. Corte estructural principal: 28/09/2026.
 
-## Novedades principales
-- Rueda radial arrastrable: a escala normal gira; al acercar, arrastrar desplaza la vista.
-- Zoom con botones, Ctrl/⌘ + rueda, doble clic y gesto de pinza.
-- Distancia al centro = nivel jerárquico en Panorama; anillos relativos en vistas focalizadas.
-- Tamaño de sectores por estructura o igual; etiquetas progresivas con el zoom.
-- Titulares superiores actualizados y ampliados a Ejecutivo, órganos judiciales principales y organismos autónomos seleccionados.
-- Resumen de funciones de las 22 dependencias con fuente LOAPF vigente.
-- Comparador ampliado: función, unidades directas, descendientes, OAD, paraestatales sectorizadas, profundidad, titular, calidad y fuentes.
-- Relaciones institucionales multicapa: jerarquía, sectorización, unidades hermanas y sucesión histórica documentada.
-- Semáforo corregido: entidades federativas y paraestatales no se presentan como estructuras internas completas.
-- Histórico rotulado como “en construcción”.
+## Qué cambia
 
-## Interacción inspirada en una referencia comparativa
-Se tomó como referencia de experiencia de usuario el Mapa del Estado uruguayo de politicaspublicas.uy: niveles radiales, giro por arrastre, zoom y revelado progresivo. La estructura, categorías y datos de esta web corresponden al caso mexicano y a sus fuentes oficiales.
+- Interfaz simplificada y más visual, inspirada funcionalmente en la navegación del Mapa del Estado uruguayo: rueda, explorador, relaciones, comparación, histórico y datos.
+- Rueda radial con hover, zoom con rueda del mouse, arrastre, doble clic y navegación por subestructuras.
+- Explorador tabular con modos Organismos, Unidades y Personas.
+- Red de relaciones basada en 1015 aristas de jerarquía, sectorización y sucesión.
+- Comparador institucional ampliado.
+- Modelo histórico con tres fechas separadas: publicación de fuente, entrada en vigor y verificación.
+- Paquete de datos abierto y replicable con criterios de codificación, esquema JSON, relaciones y eventos.
+- 25 titulares superiores verificados con fuente oficial.
 
-## Archivos
-- index.html
-- datos_base_v1_2.csv
-- relaciones_v1_2.csv
-- fuentes_v1_2.csv
-- cobertura_dependencias_v1_2.csv
-- sector_paraestatal_2026.csv
-- base_maestra_v1_2.xlsx
+## Publicación
 
-## Datos añadidos en la base v1.2
-
-Además de los campos estructurales, la base publica indicadores derivados para facilitar análisis y comparación: sector funcional de navegación, ruta jerárquica, unidades directas, descendientes cargados, profundidad máxima, órganos administrativos desconcentrados descendientes, paraestatales sectorizadas y grado relacional directo.
-
-Se incluye también `titulares_v1_2.csv` con 34 titularidades superiores verificadas al corte del 13/10/2026 y `relaciones_v1_2.csv` con 1,015 relaciones explícitas (835 jerárquicas y 180 de sectorización).
+Sube a la raíz del repositorio todo el contenido de este paquete, reemplazando los archivos anteriores. `index.html` debe permanecer en la raíz.
