@@ -1,0 +1,15 @@
+﻿orden,dimension,universo,estado_de_partida_documentado,trabajo_pendiente,prioridad
+01,Funciones y atribuciones,Todas las ramas federales,0 funciones estructuradas antes de la ampliación,"Codificar atribuciones de cada unidad, con fracción específica, vigencia y fuente",Muy alta
+02,Titulares,Ejecutivo + demás poderes y autónomos,25 titulares superiores en base de 5.315 registros,"Contrastar directorios actuales, cargo, fecha de directorio, entrada/salida si existe acto oficial",Muy alta
+03,Adscripción inmediata,"Legislativo, paraestatales, autónomos y Judicial",462 adscripciones por precisar en auditoría,"Resolver jefatura inmediata documental con organigrama, manual, estatuto",Muy alta
+04,Paraestatales: fichas,Padrón de trabajo federal,141 entidades sólo con ficha,Cargar manual/estatuto y distinguir gobierno institucional de estructura operativa,Muy alta
+05,Paraestatales: gobierno,Padrón de trabajo federal,14 con sólo gobierno institucional dentro de 40 desglosadas,"Profundizar unidades operativas, dirección/subdirección, sedes, filial",Alta
+06,Paraestatales: cambios,Padrón de trabajo federal,18 fichas por cotejar,Verificar situación jurídica y sector coordinador con instrumentos posteriores,Alta
+07,Historia de organismos,Todas las ramas,"0 fechas inicio, 1 fin y 2 tipos de cambio","Modelar eventos documentados, no sobreescritura; predecesoras y vigencias jurídicas",Muy alta
+08,Ejecutivo central,22 secretarías y otros,1.108 registros; profundidad desigual,"Manuales integrales y directorios hasta departamentos, órganos desconcentrados y territorio",Alta
+09,Senado/ASF/Diputados,Poder Legislativo,440 registros y adscripciones pendientes,"Manual administrativo Senado 2024, comisiones LXVI, organigramas y adscripción",Alta
+10,Judicial,"SCJN, OAJ, TDJ, TEPJF",1.065 registros; 930 en directorio jurisdiccional,"Cotejar operación de órganos, creación/extinción, transferencias y manuales",Alta
+11,Autónomos y especiales,"INE, INEGI, Banxico, FGR, CNDH y otros",1.110 registros; UAM y otros especiales por incorporar,"Normativa, órganos territoriales, clasificaciones y titulares",Alta
+12,Territorio subnacional,32 entidades,"32 nodos territoriales, sin organigrama interno",Entidades: poderes y autónomos; municipios en fase posterior,Posterior
+13,Sedes y claves,Niveles desconcentrados y territoriales,970 registros con sede y 1.488 con código,"Enlazar código, sede, unidad y fuente institucional",Media
+14,Comparación longitudinal,Organismos con actos normativos fechados,Modelo sin series temporales robustas,"Consultas a fecha, cambios de nombre, adscripción y continuidad institucional",Alta
