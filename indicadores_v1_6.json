@@ -1,0 +1,16 @@
+{
+  "version": "1.6",
+  "total_registros": 5315,
+  "total_relaciones": 6418,
+  "titulares_antes": 25,
+  "titulares_nuevos": 16,
+  "titulares_total": 41,
+  "competencias_generales_dependencias": 22,
+  "funciones_unidades": 11,
+  "funciones_documentadas_total": 33,
+  "adscripciones_confirmadas_en_esta_ronda": 2,
+  "adscripciones_sin_precisar": 460,
+  "fecha_consolidacion": "2026-10-21",
+  "fecha_corte_base_original": "2026-09-29",
+  "limitacion": "Funciones resumidas NO equivalen a atribuciones exhaustivas; relaciones provisionales NO constituyen jerarquía inmediata verificada"
+}
